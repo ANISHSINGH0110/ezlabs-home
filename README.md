@@ -1,16 +1,46 @@
-# React + Vite
+# EZ Labs Home Page - Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a single-page responsive web application built as part of the EZ Labs Frontend Assignment. The objective of this project is to recreate the provided Home Page design and integrate a functional contact form with API submission.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Tech Stack
 
-## React Compiler
+**Framework:**  
+- React.js (Vite) or Next.js (v14+)  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Styling:**  
+- Tailwind CSS / CSS / SCSS / Bootstrap (choose what you used)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Features
+
+- Pixel-perfect UI inspired by the provided Figma design
+- Fully responsive layout for Mobile, Tablet, Mini-desktop, and Desktop
+- Contact form with:
+  - Frontend validation (required fields + valid email)
+  - API integration using `POST` request
+  - Success message displayed upon successful submission
+- Clean and modular component structure
+- Optional enhancements (if implemented):
+  - Loading state
+  - Form reset after submit
+  - Smooth animations
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone repository
+git clone <your-repo-link>
+
+# Move into project directory
+cd <project-folder>
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
